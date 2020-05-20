@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Understanding Closure</title>
+	</head>
+	<body>
+		<h1>Closure</h1>
+		<h3>
+			Closure is when an inner function has access to the outer(enclosing)
+			function's variables
+		</h3>
+		<p>
+			Closure is when an inner function is able to access outside scope, scope
+			from the outer function.
+		</p>
+		<p>
+			A way to remember and continue to access a function's scope even once the
+			function has finished executing(the data cease to exist when the function
+			ends).
+		</p>
+		<p>
+			An inner function maintains a scope reference to where it was originally
+			declared(at author time)
+		</p>
+		<p>
+			In JS, closures are created every time a function is created, at function
+			creation time. You can check the closure feature using the
+			debugger(breakpoint)
+		</p>
+		<p>
+			A closure is the combination of a function and the lexical environment
+			within which that function was declared. This environment consist of any
+			local variables that were in-scope at the time the closure was created.
+		</p>
+		<p>
+			Closures let you associate data(lexical environment) with a function that
+			operates on that data. You can use closure anywhere that you might
+			normally use an object with only a single method
+		</p>
+
+		<!-- <script src="example1.js"></script> -->
+		<!-- <script src="example2.js"></script> -->
+		<!-- <script src="example3.js"></script> -->
+		<script src="example4.js"></script>
+	</body>
+</html>
